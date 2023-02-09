@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  # Production backend container. Builds in release mode and run. Project will be restarted on every abort.
+  backend:
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: backend
+    working_dir: /ozon
+    command: ./ozon-server
+
+  # Development backend container. Runs in debug mode and live-reloading on every time when config.yml file updated.
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev
+    environment:
+      DEBUG: "true"
+      SERVING_PORT: ":8008"
+    cap_add:
+      - SYS_PTRACE
+    volumes:
+      - .:/ozon
+    working_dir: /ozon
+    ports:
+      - "8008:8008"
+      - "40000:40000"
+    command: bash -c "go mod download && make serve"
+#    command: tail -F anything
+

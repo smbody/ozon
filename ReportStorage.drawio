@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T04:40:26.616Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="0c2oyiQPAmVQDni7wYez" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T04:45:02.909Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="iERgLacbGK7s3MfLru-a" version="20.8.23" type="github">
   <diagram name="Страница 1" id="fKqOjSuukLFQEkXzYm4n">
-    <mxGraphModel dx="756" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="993" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,8 +66,43 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5YQWLy8omhDsQ3KZEHmy-20" value="Унифицированная экранная форма отчета" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="590" width="120" height="60" as="geometry" />
+        <mxCell id="5YQWLy8omhDsQ3KZEHmy-20" value="Унифицированная &lt;br&gt;экранная &lt;br&gt;форма отчета" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="600" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5YQWLy8omhDsQ3KZEHmy-21" value="Отчет&amp;nbsp;&lt;br&gt;DataLink" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YQWLy8omhDsQ3KZEHmy-22" value="Отчет&amp;nbsp;&lt;br&gt;DataLink" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YQWLy8omhDsQ3KZEHmy-23" value="Отчет&amp;nbsp;&lt;br&gt;DataLink" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YQWLy8omhDsQ3KZEHmy-24" value="Отчет&amp;nbsp;&lt;br&gt;DataLink" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YQWLy8omhDsQ3KZEHmy-25" value="Отчет&amp;nbsp;&lt;br&gt;ClosedXML" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YQWLy8omhDsQ3KZEHmy-26" value="Параметры&lt;br&gt;формирования" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5YQWLy8omhDsQ3KZEHmy-20" target="5YQWLy8omhDsQ3KZEHmy-9">
+          <mxGeometry x="0.0638" y="30" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="590" as="sourcePoint" />
+            <mxPoint x="110" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="510" />
+              <mxPoint x="90" y="390" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5YQWLy8omhDsQ3KZEHmy-27" value="Отчет&amp;nbsp;&lt;br&gt;ClosedXML" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YQWLy8omhDsQ3KZEHmy-28" value="Отчет&amp;nbsp;&lt;br&gt;ClosedXML" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5YQWLy8omhDsQ3KZEHmy-29" value="Отчет&amp;nbsp;&lt;br&gt;ClosedXML" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="630" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
